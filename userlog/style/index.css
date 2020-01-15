@@ -1,0 +1,262 @@
+#header {
+	position: absolute;
+	height: 60px;
+	top: 0px;
+	left: 0px;
+	border : 1px solid;
+	border-color : grey;
+	width: 100%;
+	background-color: #242729 ;
+}
+#logo {
+	position: relative;
+	top: 10px;
+}
+#vertialhr {
+	color: black;
+	/* border : 0.2px solid; */
+	position: absolute;
+	
+	font-weight: bold;
+	height: 780px;
+	width: 1px;
+	top : 54px;
+	left : 262px;
+}
+#vertialhr2 {
+	color: black;
+	/* border : 0.2px solid; */
+	position: absolute;
+	
+	font-weight: bold;
+	height: 780px;
+	width: 1px;
+	top : 54px;
+	left : 262px; 
+}
+#centerlog {
+	background-color: #242729;
+	position: relative;
+	display: inline-block;
+	
+	font-weight: bold;
+	border-radius: 5px;
+	top: 250px;
+	width: 370px;
+	height: 370px;
+	left: -20px;
+}
+#centerlog2 {
+	background-color: #242729;
+	
+	font-weight: bold;
+	top: 50px;
+	width: 200px;
+	height: 90%;
+	float:left;
+	display:none;
+}
+#centerlog3 {
+	background-color: #242729;
+	position: absolute;
+	text-align: center;
+	display: inline-block;
+	
+	font-weight: bold;
+	border-radius: 5px;
+	top: 250px;
+	width: 320px;
+	height: 370px;
+	left: 850px;
+}
+#check {
+	position: relative;
+	display: inline-block;
+	font-size: large;
+	width: 245px;
+	left: 2px;
+	top: 100px;
+	color: white;
+}
+#signup {
+	position: relative;
+	text-align: center;
+	top: 40px;
+	color: white;
+}
+#login-button {
+	display: block;
+	position: relative;
+	width: 250px;
+	left: -2px;
+}
+#error {
+	color: red;
+	position: relative;
+	text-align: center;
+	left: 25px;
+	top: 50px;
+}
+#error2 {
+	color: red;
+	position: relative;
+	text-align: center;
+	left: 5px;
+	top: 150px;
+}
+#login-form2 {
+	text-align: left;
+	display: inline-block;
+	font-size: large;
+	width: 245px;
+	left: 2px;
+	top: 80px;
+	color: white;
+	position: relative;
+}
+#login-form {
+	text-align: left;
+	display: inline-block;
+	font-size: large;
+	width: 245px;
+	left: 2px;
+	top: 40px;
+	color: white;
+	position: relative;
+}
+#recoveringpw {
+	font-size: 12px;
+	position: relative;
+	right: -80px;
+}
+#log {
+	position: absolute;
+	
+	font-weight: bold;
+	font-size: large;
+	float: right;
+	top: 20px;
+	right: 400px;
+	display: flex;
+}
+#logout {
+	position: absolute;
+	
+	font-weight: bold;
+	font-size: 12px;
+	float: right;
+	top: 12px;
+	right: 100px;
+	display: flex;
+}
+#title {
+	cursor:pointer;
+	top: 0px;
+	position: relative;
+	
+	font-weight: bold;
+}
+#logoutbutton2 {
+	width:80px;
+	height: 30px;
+	font-size: large;
+	
+	font-weight: bold;
+	cursor:pointer;
+	right: 15px;
+	top: 2px;
+	color: #FFFFFF;
+	position: relative;
+	background-color: #07C;
+}
+#linksprofils {
+	position: relative;
+	display: block;
+	top: 80px;
+	left: 25px;
+	text-align: left;
+	font-size: 18px;
+	
+	font-weight: bold;
+}
+#logoutbutton {
+	width:80px;
+	height: 30px;
+	font-size: large;
+	
+	font-weight: bold;
+	cursor:pointer;
+	right: -7px;
+	top:-8px;
+	color: #FFFFFF;
+	position: relative;
+	background-color: #07C;
+}
+input[type=submit] {
+	width:80px;
+	height: 35px;
+	font-size: large;
+	
+	font-weight: bold;
+	cursor:pointer;
+	right: -7px;
+	top:-8px;
+	color: #FFFFFF;
+	position: relative;
+	background-color: #07C;
+}
+input[type=text], input[type=password], input[type=mail] {
+	display: flex;
+	
+	font-weight: bold;
+	width: 250px;
+	height: 30px;
+	right: -15px;
+	border-radius : 5px ;
+	top: -50px;
+}
+#title2 {
+	color: #07C;
+	
+	font-weight: bold;
+	position: relative;
+	top:-30px;
+}
+#title3 {
+	color: #07C;
+	
+	font-weight: bold;
+	position: absolute;
+	bottom:10px;
+	left: 80px;
+}
+#title4 {
+	color: #07C;
+	
+	font-weight: bold;
+	font-size: large;
+	position: relative;
+	left: -220px;
+	top: -10px;
+}
+h2 {
+	font-size: 17px;
+	top:50px;
+	left: -50px;
+	position: relative;
+}
+h1 {
+	
+	color: #07C;
+	font-size: 25px;
+	
+	font-weight: bold;
+	top:-5px;
+	left: -550px;
+	position: relative;
+}
+body{
+	/* background-color: #07C; */
+	background-color: #DDDDDD;
+}
+
