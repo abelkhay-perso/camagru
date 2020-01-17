@@ -58,16 +58,16 @@
 }
 #centerlog3 {
 	background-color: #242729;
-	position: absolute;
+	position: relative;
 	text-align: center;
 	display: inline-block;
 	
 	font-weight: bold;
 	border-radius: 5px;
 	top: 250px;
-	width: 320px;
+	width: 370px;
 	height: 370px;
-	left: 850px;
+	left: 1200px;
 }
 #check {
 	position: relative;

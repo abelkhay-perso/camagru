@@ -38,6 +38,7 @@
             $querylike->execute(array(':idmontage' => $val[3], ':flag' => $flag));
             $like = $querylike->fetch();
             if ($like == null) {
+              
               echo  "<form method='post'action='./like.php'>
               <input type='hidden' name='id' value='$val[3]' >
               <input type='hidden' name='flag' value='$flag' >

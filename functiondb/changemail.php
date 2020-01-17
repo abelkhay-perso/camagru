@@ -1,6 +1,9 @@
 <?php
 function changemail($mail, $newmail, $password) {
-  include_once '../config/database.php';
+  $DB_NAME = "camagru";
+  $DB_DSN = "mysql:host=127.0.0.1:3306;dbname=".$DB_NAME;
+  $DB_USER = "root";
+  $DB_PASSWORD = "test123";
   
   $password = hash("whirlpool", $password);
   $mail = strtolower($mail);

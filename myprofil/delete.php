@@ -27,7 +27,6 @@
         $query->execute(array(':id' => $val['id']));
         $query->closeCursor();
         } catch (PDOException $e) {
-        
     }
     
     header("Location: ./miniatures.php")

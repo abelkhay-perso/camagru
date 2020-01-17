@@ -30,7 +30,6 @@
 				</div>
 		</div>
     
-        
         <div id="centerlog3">
             <form id="login-form" action="./changeuse.php" method= "POST">
                 E-mail: <input type="text" name="email" value="" autocomplete> <br >
@@ -46,7 +45,7 @@
                     $_SESSION['change_success'] = null;
                 }
                 ?>
-          </span>
+          		</span>
             </form>
         </div>
     
